@@ -41,7 +41,8 @@
         <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <!-- Peti red -->
-
+        <TextBlock x:Name="timeTextBlock" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="4" Text="Elapsed time" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="4" MouseDown="TimeTextBlock_MouseDown"/>
+        
 
     </Grid>
 </Window>
