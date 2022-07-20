@@ -68,6 +68,7 @@ namespace MatchGame
             {
                 if (textBlock.Name != "timeTextBlock")
                 {
+                    textBlock.Visibility = Visibility.Visible;
                     int index = random.Next(animalEmoji.Count);
                     string nextEmoji = animalEmoji[index];
                     textBlock.Text = nextEmoji;
@@ -79,7 +80,6 @@ namespace MatchGame
             timer.Start();
             tenthsOfSecoundsElapsed = 0;
             matchesFound = 0;
-
         }
 
 
